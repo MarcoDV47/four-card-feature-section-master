@@ -1,0 +1,15 @@
+main {
+    grid-template: ". t ." 1fr
+        "s t c" 1fr
+        "s k c" 1fr
+        ". k ." 1fr / 1fr 1fr 1fr;
+    min-height: 40em;
+    padding: 2em;
+    gap: 2em;
+}
+
+
+/* ". t ." minmax(100px, 1fr)
+"s t c" minmax(100px, 1fr)
+"s k c" minmax(100px, 1fr)
+". k ." minmax(100px, 1fr) / auto auto auto; */
